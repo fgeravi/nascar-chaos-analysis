@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 output/
+# local env + raw data
+.venv/
+data/raw/
+__pycache__/
+.DS_Store

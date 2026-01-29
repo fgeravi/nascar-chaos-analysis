@@ -14,6 +14,7 @@ This project is intentionally intended to use strictly software to interpret rac
 
 ## Folder structure
 - `src/` – analysis and pipeline scripts  
+- `src/v2/` – additional pace focused analysis modules
 - `output/` – generated results (CSV, text summary, SQLite DB)  
 - `scratch/` – early scratch work  
 - `weekend-feed-5392.json` – sample input data (NASCAR weekend-feed JSON)
