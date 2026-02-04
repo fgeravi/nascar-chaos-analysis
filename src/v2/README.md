@@ -31,4 +31,6 @@ This shows the driver and the cars capability without cautions
 ## Run
 From root:
 ```bash
+python3 -m src.v2.green_running_pace
+# or
 python3 src/v2/green_running_pace.py
