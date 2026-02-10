@@ -1,4 +1,4 @@
-# NASCAR Chaos Interpreter, Version: 2.0
+# NASCAR Chaos Interpreter, Version: 3.0
 
 A small program representing a reproducible data pipeline using NASCAR weekend feed JSON data.
 
@@ -15,6 +15,7 @@ This project is intentionally intended to use strictly software to interpret rac
 ## Versions
 - v1 focuses on race-level chaos metrics like flags/cautions and position delta
 - v2 gives lap-level, green-running pace analysis to find true driver performance and car speed, removing signal noise from the calculations of lap times
+- v3 introduces visualization of data with SEM/95% CI metrics, using DuckDB and SQL for visuals of data
 
 ## Folder structure
 - `src/` – analysis and pipeline scripts  
