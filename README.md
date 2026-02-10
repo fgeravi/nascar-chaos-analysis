@@ -1,4 +1,4 @@
-# NASCAR Chaos Interpreter, Version: 3.0
+# NASCAR Data Interpreter, Version: 3.0
 
 A small program representing a reproducible data pipeline using NASCAR weekend feed JSON data.
 
