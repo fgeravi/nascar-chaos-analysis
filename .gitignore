@@ -4,6 +4,8 @@ __pycache__/
 output/
 # local env + raw data
 .venv/
-data/raw/
+data/raw/*
+!data/raw/lap_times_2023_3_5343.json
+!data/raw/weekend-feed-5392.json
 __pycache__/
 .DS_Store
