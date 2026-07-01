@@ -4,10 +4,10 @@ import argparse
 from pathlib import Path
 import pandas as pd
 
-# Default input (same as your current intent)
+# Default input
 DEFAULT_INFILE = "data/raw/lap_times_2023_3_5343.json"
 
-# Defaults (same numbers you used)
+# Defaults 
 DEFAULT_GREEN_MIN = 45
 DEFAULT_GREEN_MAX = 70
 DEFAULT_VALID_MIN = 30

@@ -3,7 +3,7 @@ from nascar_io import load_weekend_feed, get_race
 from metrics import position_deltas, top_movers, chaos_score
 
 # Configured paths, edit JSON_PATH if adding a new file
-JSON_PATH = "weekend-feed-5392.json"
+JSON_PATH = "data/raw/weekend-feed-5392.json"
 OUT_PATH = "output/single_race_summary.txt"
 CSV_PATH = "output/driver_deltas_5392.csv"
 

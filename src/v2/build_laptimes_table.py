@@ -60,3 +60,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# NOTE:
+# This script is exploratory and intentionally shows raw/unfiltered lap data.
+# Some averages may be distorted by caution laps, pit laps, or timing anomalies.
+# The cleaned analysis is handled in green_running_pace.py.
