@@ -1,11 +1,17 @@
 .DS_Store
 __pycache__/
 *.pyc
-output/
-# local env + raw data
+
+# Ignore all output by default
+output/*
+
+# But keep the SQL figures
+!output/v3_daytona_trucks/
+!output/v3_daytona_trucks/figures_sql/
+!output/v3_daytona_trucks/figures_sql/*.png
+
+# Local environment + raw data
 .venv/
 data/raw/*
 !data/raw/lap_times_2023_3_5343.json
 !data/raw/weekend-feed-5392.json
-__pycache__/
-.DS_Store
